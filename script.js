@@ -38,10 +38,10 @@ function arvoreReader() {
             
             #noleia-floatingBtn {
                 position: fixed;
-                top: 25px;
-                right: 25px;
-                width: 65px;
-                height: 65px;
+                top: 20px;
+                right: 20px;
+                width: 60px;
+                height: 60px;
                 border-radius: 16px;
                 background: #0a0a0a;
                 border: 1px solid #2a2a2a;
@@ -84,8 +84,8 @@ function arvoreReader() {
             }
             
             #noleia-floatingBtn img {
-                width: 32px;
-                height: 32px;
+                width: 28px;
+                height: 28px;
                 filter: invert(0.8);
                 transition: all 0.3s ease;
             }
@@ -97,14 +97,14 @@ function arvoreReader() {
             
             #noleia-menu {
                 position: fixed;
-                top: 105px;
-                right: 25px;
-                width: 340px;
+                top: 90px;
+                right: 20px;
+                width: 300px;
                 background: #0a0a0a;
                 border: 1px solid #2a2a2a;
                 padding: 0;
-                border-radius: 20px;
-                box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8);
+                border-radius: 16px;
+                box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
                 z-index: 10000;
                 display: none;
                 backdrop-filter: blur(20px);
@@ -114,7 +114,7 @@ function arvoreReader() {
             
             .noleia-header {
                 background: #111;
-                padding: 25px;
+                padding: 20px;
                 border-bottom: 1px solid #2a2a2a;
                 position: relative;
             }
@@ -123,52 +123,52 @@ function arvoreReader() {
                 content: '';
                 position: absolute;
                 bottom: -1px;
-                left: 25px;
-                right: 25px;
+                left: 20px;
+                right: 20px;
                 height: 1px;
                 background: linear-gradient(90deg, transparent, #666, transparent);
             }
             
             .noleia-header h2 {
                 color: #fff;
-                font-size: 1.6rem;
+                font-size: 1.4rem;
                 font-weight: 600;
-                margin: 0 0 5px 0;
+                margin: 0 0 4px 0;
                 letter-spacing: -0.5px;
             }
             
             .noleia-subtitle {
                 color: #888;
-                font-size: 0.85rem;
+                font-size: 0.8rem;
                 font-weight: 400;
             }
             
             .noleia-content {
-                padding: 25px;
+                padding: 20px;
             }
             
             .noleia-input-group {
-                margin-bottom: 22px;
+                margin-bottom: 18px;
             }
             
             .noleia-label {
                 display: block;
                 color: #ccc;
-                font-size: 0.8rem;
+                font-size: 0.75rem;
                 font-weight: 500;
-                margin-bottom: 10px;
+                margin-bottom: 8px;
                 text-transform: uppercase;
                 letter-spacing: 1px;
             }
             
             .noleia-input {
                 width: 100%;
-                padding: 14px 18px;
+                padding: 12px 16px;
                 background: #111;
                 border: 1px solid #333;
-                border-radius: 10px;
+                border-radius: 8px;
                 color: #fff;
-                font-size: 0.95rem;
+                font-size: 0.9rem;
                 transition: all 0.3s ease;
                 font-family: inherit;
             }
@@ -182,10 +182,10 @@ function arvoreReader() {
             
             .noleia-btn {
                 width: 100%;
-                padding: 16px;
+                padding: 14px;
                 border: none;
-                border-radius: 12px;
-                font-size: 0.9rem;
+                border-radius: 10px;
+                font-size: 0.85rem;
                 font-weight: 600;
                 cursor: pointer;
                 transition: all 0.3s ease;
@@ -193,7 +193,7 @@ function arvoreReader() {
                 overflow: hidden;
                 text-transform: uppercase;
                 letter-spacing: 1px;
-                margin-bottom: 12px;
+                margin-bottom: 10px;
                 font-family: inherit;
             }
             
@@ -211,8 +211,8 @@ function arvoreReader() {
             }
             
             .noleia-btn:hover::before {
-                width: 300px;
-                height: 300px;
+                width: 250px;
+                height: 250px;
             }
             
             .noleia-start {
@@ -224,7 +224,7 @@ function arvoreReader() {
             .noleia-start:hover {
                 border-color: #666;
                 transform: translateY(-2px);
-                box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
             }
             
             .noleia-stop {
@@ -236,21 +236,21 @@ function arvoreReader() {
             .noleia-stop:hover {
                 border-color: #664444;
                 transform: translateY(-2px);
-                box-shadow: 0 8px 25px rgba(255, 107, 107, 0.1);
+                box-shadow: 0 6px 20px rgba(255, 107, 107, 0.1);
             }
             
             .noleia-status {
-                padding: 16px;
+                padding: 14px;
                 background: #111;
                 border: 1px solid #333;
-                border-radius: 10px;
-                font-size: 0.85rem;
+                border-radius: 8px;
+                font-size: 0.8rem;
                 text-align: center;
-                margin-top: 20px;
+                margin-top: 16px;
                 color: #ccc;
                 transition: all 0.3s ease;
                 animation: glow 2s ease-in-out infinite;
-                min-height: 20px;
+                min-height: 18px;
             }
             
             .noleia-status.active {
@@ -265,14 +265,14 @@ function arvoreReader() {
             
             .noleia-footer {
                 background: #111;
-                padding: 20px 25px;
+                padding: 16px 20px;
                 border-top: 1px solid #2a2a2a;
                 text-align: center;
             }
             
             .noleia-credits {
                 color: #666;
-                font-size: 0.75rem;
+                font-size: 0.7rem;
                 line-height: 1.4;
             }
             
@@ -289,7 +289,7 @@ function arvoreReader() {
             }
             
             .noleia-divider {
-                margin: 0 8px;
+                margin: 0 6px;
                 color: #444;
             }
         </style>
@@ -356,11 +356,11 @@ function arvoreReader() {
                 style: {
                     background: '#0a0a0a',
                     border: '1px solid #2a2a2a',
-                    borderRadius: '10px',
-                    boxShadow: '0 12px 40px rgba(0, 0, 0, 0.8)',
+                    borderRadius: '8px',
+                    boxShadow: '0 10px 30px rgba(0, 0, 0, 0.8)',
                     color: '#fff',
-                    fontSize: '0.9rem',
-                    padding: '14px 20px'
+                    fontSize: '0.85rem',
+                    padding: '12px 16px'
                 },
             }).showToast();
         }
